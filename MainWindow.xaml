@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="550" Width="330">
+    <Grid x:Name="grid" Background="#232323">
+        <TextBox x:Name="tbxScreen" Margin="10,10,10,430" IsReadOnly="True" Background="Transparent" Foreground="White" FontSize="40px" FontWeight="Bold"></TextBox>
+        <Button Click="main" Content="1" Margin="10,187,250,279" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="2" Margin="85,187,175,279" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="3" Margin="160,187,100,279" RenderTransformOrigin="0.5,0.5" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="+" Margin="10,109,250,357" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="4" Margin="10,260,250,206" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="5" Margin="85,260,175,206" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="6" Margin="160,260,100,206" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="-" Margin="85,109,175,357" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="7" Margin="10,333,250,133" RenderTransformOrigin="6,0.822" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="8" Margin="87,333,175,133" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="9" Margin="160,333,100,133" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="x" Margin="235,187,10,279" RenderTransformOrigin="6.231,-1.478" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="0" Margin="87,406,175,60" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="=" Margin="235,333,10,60" RenderTransformOrigin="-6.853,-0.047" Background="#50ABE7" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"></Button>
+        <Button Click="main" Content="C" Margin="235,109,10,357" Foreground="Red" Background="Transparent" BorderThickness="0px" FontWeight="Bold" FontSize="20px"/>
+        <Button Click="main" Content="/" Margin="160,109,100,357" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"/>
+        <Button Click="main" Content="%" Margin="235,260,10,206" RenderTransformOrigin="6.231,-1.478" Background="Transparent" Foreground="White" FontSize="20px" FontWeight="Bold" BorderThickness="0px"/>
     </Grid>
 </Window>
